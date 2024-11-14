@@ -2,7 +2,10 @@
   "name": "marklite",
   "version": "1.0.0",
   "description": "Marklite: A minimal Markdown-to-HTML converter",
-  "keywords": ["markdown", "parser"],
+  "keywords": [
+    "markdown",
+    "parser"
+  ],
   "homepage": "https://github.com/SEMIN-97/MarkLite",
   "bugs": {
     "url": "https://github.com/SEMIN-97/MarkLite/issues"
@@ -12,8 +15,13 @@
     "type": "git",
     "url": "https://github.com/SEMIN-97/MarkLite.git"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "license": "MIT",
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }
