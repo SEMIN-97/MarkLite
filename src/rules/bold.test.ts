@@ -13,6 +13,6 @@ describe('strong tag 변환 검증', () => {
     const markdown = '__bold__';
     const html = convertBold(markdown);
 
-    expect(html).toBe('<strong>bold</strong>')
+    expect(html).toBe('<strong>bold</strong>');
   });
 });

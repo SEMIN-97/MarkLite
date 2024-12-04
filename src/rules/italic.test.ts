@@ -15,4 +15,4 @@ describe('Italic tag 변환 검증', () => {
 
     expect(html).toBe('<i>italic</i>');
   });
-})
+});
