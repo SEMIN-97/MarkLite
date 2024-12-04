@@ -22,7 +22,11 @@
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
-    "test": "vitest run"
+    "build": "tsc",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "ci": "npm run build && npm run check-format"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
