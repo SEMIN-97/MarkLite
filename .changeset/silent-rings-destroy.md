@@ -1,5 +1,0 @@
----
-'marklite': patch
----
-
-Initial release
