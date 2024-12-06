@@ -1,5 +1,11 @@
 # marklite
 
+## 1.0.3
+
+### Patch Changes
+
+- 5853e44: Add paraghaphs
+
 ## 1.0.2
 
 ### Patch Changes

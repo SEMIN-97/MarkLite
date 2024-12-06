@@ -1,6 +1,6 @@
 {
   "name": "marklite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Marklite: A minimal Markdown-to-HTML converter",
   "keywords": [
     "markdown",
@@ -18,6 +18,9 @@
   "files": [
     "dist"
   ],
+  "bin": {
+    "marklite": "./dist/cli.js"
+  },
   "type": "module",
   "license": "MIT",
   "main": "dist/index.js",
