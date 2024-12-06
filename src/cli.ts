@@ -6,7 +6,9 @@ import markdownToHtml from './index.js';
 // Get file paths from command-line arguments
 const args = process.argv.slice(2);
 if (args.length === 0) {
-  console.error('❌ No input file provided. Usage: marklite <input.md> [output.html]');
+  console.error(
+    '❌ No input file provided. Usage: marklite <input.md> [output.html]',
+  );
   process.exit(1);
 }
 
